@@ -19,8 +19,8 @@ folder = "C:/Users/DiBot/Desktop/CIC/RFVC/Photos/"
 
 onlyfiles = [f for f in os.listdir(folder) if os.path.isfile(os.path.join(folder, f))]
 
-print("Working with {0} images".format(len(onlyfiles)))
-print("Image examples: ")
+print("Imagenes existentes: {0} ".format(len(onlyfiles)))
+print("Imagenes ")
 image = []
 
 n=50
